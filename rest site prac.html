@@ -9,21 +9,13 @@
     in Manhattan. Tasty, and full of spice, the location is known for its zesty barbeque squash served on 
     a platter of kale.">
 
-    <style>
-        h1 {color: red; font-style: italic; font-size: 80px; text-decoration: underline;}
-        h2 {color: blue; font-size: 50px;}
-        p {color: green; font-size: 20px;}
-
-        div {background-color: yellow; 
-        width: 600px; height:400px;}
-    </style>
-
+    <link rel="stylesheet" href="styles 1.css">
     
 </head>
 
 <body>
    
-    <h1>Adare Restaurant.</h1>
+    <h1 class="businessname"> Adare Restaurant.</h1>
     <h2>Testing css within the html page.</h2>
     <p>Great food available on the menu below.</p> 
     Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
@@ -39,12 +31,30 @@
         <li>Purple Seaseme Bun</li>
     </ul>
 
-    <div>
-<p>First Box in div tag</p>
-
+    <div class="box1">
+        <p class="highlight-text">First Box in div tag</p>
 
     </div>
+    <div class="box2">
+        <p>Second box in div tag</p>
+               
+    </div>
+
+    <section id="lab_social_icon_footer">
+        <!-- Include Font Awesome Stylesheet in Header -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <div class="container">
+                <div class="text-center center-block">
+                        <a href="https://www.facebook.com"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                        <a href="https://twitter.com"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                        <a href="https://plus.google.com"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                        <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+            </div>
+        </div>
+        </section>
 <footer>
 </footer>
+  
+  
 </body>
 </html>
