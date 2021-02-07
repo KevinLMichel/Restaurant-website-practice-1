@@ -55,9 +55,9 @@ color: #d34836;
 #lab_social_icon_footer #social-em:hover {
 color: #f39c12;
 }
-.businessname {color: dodgerblue;}
+.businessname {color: #fff;}
 
-.Specials {color: #d34836; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+.Specials {color:#fff; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
 
 p.serif {
 	font-family: "Times New Roman", Times, serif;
@@ -87,6 +87,6 @@ p.fantasy {
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
-    color: aliceblue;
+    color: #fff;
 }
-#TheMainImage {background-color: aqua;}
+#TheMainImage {background-color: #242582;}
