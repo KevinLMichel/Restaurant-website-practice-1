@@ -1,3 +1,5 @@
+* {font-family: Georgia, 'Times New Roman', Times, serif;}
+
 .box1 {background-color: yellow;
     width:600px;
     height: 400px;
@@ -55,7 +57,7 @@ color: #d34836;
 #lab_social_icon_footer #social-em:hover {
 color: #f39c12;
 }
-.businessname {color: #fff;}
+.businessname {color: #fff; text-transform: uppercase;}
 
 .Specials {color:#fff; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
 
@@ -90,3 +92,4 @@ p.fantasy {
     color: #fff;
 }
 #TheMainImage {background-color: #242582;}
+
